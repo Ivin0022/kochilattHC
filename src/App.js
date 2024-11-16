@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="h-screen flex justify-center items-center bg-base-100">
-      <button className="btn btn-primary">DaisyUI Button</button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
-
 
 export default App;

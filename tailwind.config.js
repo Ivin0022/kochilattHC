@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        // Custom grid row layout
+        layout: "auto 1fr auto", // Header, Main (flexible), Footer
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
