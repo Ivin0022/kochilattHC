@@ -2,11 +2,12 @@ import React from "react";
 
 const Header = () => {
 	return (
-		<header className="bg-primary text-white p-4">
-			<div className="container mx-auto">
-				<h1 className="text-2xl font-bold">Website Header</h1>
+		<div className="navbar bg-base-100">
+			<div className="flex-1">
+				<a className="btn btn-ghost text-xl">Kochilatt HC</a>
 			</div>
-		</header>
+
+		</div>
 	);
 };
 
