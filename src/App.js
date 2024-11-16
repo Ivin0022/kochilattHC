@@ -3,10 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="h-screen flex justify-center items-center bg-gray-100">
-      <h1 className="text-3xl font-bold text-blue-500">
-        Hello, Tailwind in React!
-      </h1>
+    <div className="h-screen flex justify-center items-center bg-base-100">
+      <button className="btn btn-primary">DaisyUI Button</button>
     </div>
   );
 }
